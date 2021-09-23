@@ -1,0 +1,173 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}/* Header style */
+.head{
+    display:inline-flex;
+    width: 100%;
+}
+.head .head-left{
+    width: 10vw;
+    padding-left: 4vw;
+}
+.head .head-left img{
+    width: 125px;
+    height: 100px;
+
+}
+.head .head-center{
+    text-align: center;
+    width:70vw;
+}
+.head .head-center h2,h3,p{
+    padding: 0px;
+    margin: 5px;
+}
+.head .head-center h2{
+    color: rgb(236, 48, 48);
+}
+.head .head-center h3,p{
+    color:black;
+}
+.head .head-right{
+    width: 10vw;
+}
+.head .head-right img{
+    width: 125px;
+    height: 100px;
+}
+
+/* navbar style */
+.nav-bar{
+    margin: 0px;
+    background-color: rgb(6, 221, 199);
+    text-align: center;
+    margin: 0px;
+    /* border:  solid 2px; */
+    width: 100%;
+}
+.nav-bar ul{
+    list-style: none;
+    padding:5px;
+    margin: 0px;
+}
+.nav-bar ul li{
+    display: inline;
+    padding: 15px;
+    margin: 0px;
+}
+.nav-bar a{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+}
+.nav-bar a:hover{
+    border-bottom: solid 3px white;
+ }
+.hightlight{
+    background-color: rgb(240, 240, 240);
+    margin: 0px;
+    position: relative;
+    padding: 5px;
+}
+.hightlight span{
+    position: absolute;
+    font-weight: bold;
+}
+.slider{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    margin: 0px 40vw;
+    padding: 10px;
+    width: 20vw;
+    color: rgb(236, 48, 48);
+    text-align: center;
+    border-bottom: solid 2px rgb(6, 221, 199);
+}
+.about .text-div{
+    margin: 0px 30vw;
+    width: 45vw;
+    height: 2px;
+}
+.about .text-div p{
+    margin-top: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+.about .text-div .read-more{
+    margin-top: 25px;
+    color: rgb(6, 221, 199);
+}
+
+.course{
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    margin-top: 100px;
+    padding: 10px;
+}
+.course h1{
+    padding: 10px;
+    margin: 0px 40vw;
+    width: 20vw;
+    color: rgb(236, 48, 48);
+    text-align: center;
+    border-bottom: solid 2px rgb(6, 221, 199);
+}
+.course .section{
+    margin: 30px 20px;
+    box-shadow: 5px 5px 5px 5px #888888;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+    
+}
+.course .section img{
+    width: 250px;
+    height: 250px;
+}
+.course .section h3{
+    color: rgb(236, 48, 48);
+}
+.line{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+.last{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+
+.footer{
+    background-color: rgb(6, 221, 199);;
+    padding: 10px;
+    display: inline-flex;
+}
+.footer .section{
+    margin: 30px 20px;
+    padding: 10px;
+    width: 272px;
+    /* display: inline-block; */
+    
+}
+.footer .link p{
+    border-bottom: solid 2px white;
+    padding: 5px;
+}
+.footer .section h3{
+    color: white;
+}
+.footer .section p{
+    color: white;
+}
